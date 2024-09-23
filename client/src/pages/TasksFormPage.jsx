@@ -69,7 +69,7 @@ export function TasksFormPage(){
                     className='bg-zinc-700 p-3 rounded-lg block w-full mb-3'
                 />
                 {
-                    errors.description && <span>This field is required</span>
+                    errors.description && <span>This Field is required</span>
                 }
 
                 <button className='bg-indigo-500 p-3 rounded-lg block w-full mt-3 text-lg font-semibold hover:bg-indigo-800 transition-colors'>Save</button>
